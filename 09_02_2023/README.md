@@ -8,7 +8,7 @@
 ### Pra quem não baixou
 
 ### 1- npm i -g @ionic/cli (PARA INSTALAR A INTERFACE DE LINHA DE COMANDO DO IONIC)
-### 2- npm i -g @angular/cli (PARA INSTALAR A INTERFACE DE LINHA DE COMANDO DO ANGULAR)
+### 2- npm install -g @angular/cli (PARA INSTALAR A INTERFACE DE LINHA DE COMANDO DO ANGULAR)
 ### 3- npm i -g typescript (PARA INSTALAR O TYPESCRIPT)
 
 
@@ -21,5 +21,10 @@
 
 ## RESOLVENDO ERROS
 
-### Para 
+### Para resolver erros de SSL, aplicar os seguintes comandos nessa ordem
 
+### 1- set NODE_TLS_REJECT_UNAUTHORIZED=0
+### 2- npm set strict-ssl false
+
+
+C:\Users\(codigo de usuario)\AppData\Roaming\npm\				
